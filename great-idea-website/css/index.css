@@ -57,7 +57,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -65,10 +65,28 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+nav > a{
+	display: inline;
+	text-decoration: none;
+	color: darkgray;
+	font-size: 18px;
+	word-spacing: 50px;
+	
+}
+
 nav{
-	display: block;
+	padding: 1%;
+	
 }
 
 .logo{
-	display: inline-block;
+	display: inline-flex;
+	align-items: right;
+	justify-content: right;
 }
+
+body{
+	margin: 2% 25% 2% 25%;
+}
+
