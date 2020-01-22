@@ -66,33 +66,53 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	margin: 2% 25% 2% 25%;
+	margin: 0% 25% 2% 25%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
+p{
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+}
+
 nav > a{
-	display: inline;
+	display: inline-block;
 	text-decoration: none;
 	color:white;
 	font-size: 18px;
-	word-spacing: 50px;
+	word-spacing: 20px;
+	padding-right: 6%;
+	padding-bottom: 1%;
 	
+	
+}
+
+a:hover{
+	color: orange;
+	text-decoration: underline white;
 }
 
 nav{
 	padding: 1%;
 	margin-bottom: 8%;
-	margin-top: 8%;
+	margin-top: .3%;
 	background-color: gray;
 	border-radius: 2%;
+	overflow: hidden;
+	position: fixed;
+	margin-bottom: 12%;
+	width: 1000.25px;
+	
+
 	
 }
 
 .logo{
-	display: inline-flex;
+	display: inline-block;
 	align-items: right;
 	justify-content: right;
+	padding-left: 6%;
 }
 
 h1{
@@ -100,12 +120,22 @@ h1{
 	font-size: 83px;
 }
 
-#inno{
-	display: flex;
+
+
+h3{
+	font-size: 24px;
 }
 
+h3:hover{
+	text-decoration: underline  orange;
+}
+
+
+
+
+
 #imgpi{
-	display: inline;
+	display: inline-block;
 	align-items: right;
 }
 
@@ -116,6 +146,7 @@ h1{
 	padding-bottom: 13%;
 	padding-left: 2%;
 	text-align: center;
+	margin-top: 20%;
 
 }
 
@@ -128,6 +159,10 @@ button{
 
 }
 
+button:hover{
+	background-color: orange;
+}
+
 .subsec{
 	display: inline-block;
 	max-width: 47%;
@@ -138,4 +173,13 @@ button{
 	display: inline-block;
 	max-width: 30%;
 	margin: 1%;
+}
+
+#addy{
+	font-size: 24px;
+}
+
+#copy{
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
 }
