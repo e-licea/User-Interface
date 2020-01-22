@@ -64,3 +64,122 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body{
+	margin: 0% 25% 2% 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+p{
+	font-family: 'Righteous', cursive;
+	font-size: 16px;
+}
+
+nav > a{
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	font-size: 18px;
+	word-spacing: 20px;
+	padding-right: 6%;
+	padding-bottom: 1%;
+	
+	
+}
+
+a:hover{
+	color: orange;
+	text-decoration: underline white;
+}
+
+nav{
+	padding: 1%;
+	margin-bottom: 8%;
+	margin-top: .3%;
+	background-color: gray;
+	border-radius: 2%;
+	overflow: hidden;
+	position: fixed;
+	margin-bottom: 12%;
+	width: 1000.25px;
+	
+
+	
+}
+
+.logo{
+	display: inline-block;
+	align-items: right;
+	justify-content: right;
+	padding-left: 6%;
+}
+
+h1{
+	
+	font-size: 83px;
+}
+
+
+
+h3{
+	font-size: 24px;
+}
+
+h3:hover{
+	text-decoration: underline  orange;
+}
+
+
+
+
+
+#imgpi{
+	display: inline-block;
+	align-items: right;
+}
+
+#imgpisec{
+	display: inline-block;
+	text-align: center;
+	padding-right: 13%;
+	padding-bottom: 13%;
+	padding-left: 2%;
+	text-align: center;
+	margin-top: 20%;
+
+}
+
+button{
+	background: none;
+	border: solid black 2px;
+	font-size: 14px;
+	color: black;	
+	width: 150px;
+
+}
+
+button:hover{
+	background-color: orange;
+}
+
+.subsec{
+	display: inline-block;
+	max-width: 47%;
+	margin: 1%;
+}
+
+.subsecb{
+	display: inline-block;
+	max-width: 30%;
+	margin: 1%;
+}
+
+#addy{
+	font-size: 24px;
+}
+
+#copy{
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+}
